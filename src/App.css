@@ -1,0 +1,47 @@
+/** {
+	border: gray 1px dotted;
+	
+}*/
+
+body{  
+
+  background-color: #f7f4eb;
+  background-image: -moz-repeating-linear-gradient(-45deg, transparent, transparent 1px, rgba(255,255,255,1) 4px, rgba(255,255,255,1) 10px);
+  background-image: -webkit-repeating-linear-gradient(-45deg, transparent, transparent 1px, rgba(255,255,255,1) 4px, rgba(255,255,255,1) 10px);
+  background-image: -o-repeating-linear-gradient(-45deg, transparent, transparent 1px, rgba(255,255,255,1) 4px, rgba(255,255,255,1) 10px);
+  background-image: -ms-repeating-linear-gradient(-45deg, transparent, transparent 1px, rgba(255,255,255,1) 4px, rgba(255,255,255,1) 10px);
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, rgba(255,255,255,1) 4px, rgba(255,255,255,1) 10px);
+
+}
+
+.App {
+  width: 83%;
+  margin: 0 auto;
+}
+
+.link-container{
+	text-align: right;
+}
+
+.link{
+	color: #333;
+	font-family: Jura, sans-serif;
+	padding: 0 10px;
+	text-decoration: none;
+
+}
+
+.link:hover{
+	background-color: white;
+	color: blue;
+}
+
+.active{
+	background-color: white;
+	color: blue;
+}
+
+
+
+
+

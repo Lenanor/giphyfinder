@@ -1,0 +1,21 @@
+.noGif-center{
+  width: 80%;
+  margin: 100px auto;
+  position: relative;
+}
+
+h2 {
+	font-family: Jura, sans-serif;
+	text-align: center;
+	color: #059898;
+	scale: 20%;
+}
+
+i {
+	color: #333;
+	position: absolute;
+	margin-left: 50% ;
+	-webkit-transform: translateX(-50%) translatey(-70%);
+    -moz-transform: translateX(-50%) translatey(-70%);
+    transform: translateX(-50%) translatey(-70%);
+}

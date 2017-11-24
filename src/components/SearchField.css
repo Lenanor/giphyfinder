@@ -1,0 +1,71 @@
+.form-style{
+	font-family: Jura, sans-serif;
+	font-size: 14px;
+	color: blue;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+input[type=search] {
+    padding: 15px 5px;
+    margin-bottom: 8px;
+	border: none;
+    border-bottom: 2px solid #059898;
+    box-sizing: border-box;
+    font-family: Jura, sans-sefif;
+    color: #FFF;
+    text-align: center;
+}
+
+input[type=search]:focus {
+	background-color: #059898;
+	outline: none;
+}
+
+button[type=submit] {
+	color: white;
+	background-color: #059898;
+	font-family: Jura, sans-sefif;
+	font-size: 16px;
+	outline: none;
+    padding: 15px 25px;
+    width: 15%;
+}
+
+.checkbox-container{
+	padding-top: 1%;
+}
+
+@media (max-width: 915px) {
+	.form-style {
+		display: block;	
+	}
+	button[type=submit]{
+		width: 100%;
+		margin-top:8px;
+	}
+	input[type=search]{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
